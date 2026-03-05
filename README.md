@@ -55,7 +55,7 @@ Co-authored research paper proposing a U-Net + ResNet34 multitask architecture f
 - `97.7%` Classification Accuracy
 - `81.41%` Dice Coefficient
 
-*[📄 Read the Full Paper (PDF) ↗](./Nombre_De_Tu_Archivo.pdf)*
+*[📄 Read the Full Paper (PDF) ↗](./Research_Paper_Brain_Tumor_IA.pdf)*
 
 ---
 
@@ -64,28 +64,35 @@ Co-authored research paper proposing a U-Net + ResNet34 multitask architecture f
 #### 🧠 [AI-Assisted MRI Tumor Analysis System](https://github.com/jesusg777)
 *A multitask deep learning model for simultaneous brain tumor classification and pixel-wise segmentation.*
 
-```text
-MRI Input
-  │
-  ▼
-ResNet-34 Encoder
-  │
-  ▼
-Shared Feature Maps
-  ├──► U-Net Decoder ───────► Tumor Segmentation Mask
-  └──► Classification Head ─► Tumor Type (Glioma, etc.)
-```
-#### ⚙️ Distributed Problem Solver System
-*A client-server architecture capable of processing computational problems concurrently using network sockets.*
-* **Tech:** Go, Python, Sockets. Architecture utilizes the Factory Method design pattern for scalability.
+    MRI Input
+      │
+      ▼
+    ResNet-34 Encoder
+      │
+      ▼
+    Shared Feature Maps
+      ├──► U-Net Decoder ───────► Tumor Segmentation Mask
+      └──► Classification Head ─► Tumor Type (Glioma, etc.)
 
-#### 🌐 Collaborative Cultural Platform (Freelance)
-*A full-stack web application designed to support community collaboration, event management, and ticketing.*
-* **Tech:** React, JavaScript, Flask.
+#### ⚙️ [Distributed Problem Solver System](https://github.com/jesusg777/distributed-problem-solver)
+*A client-server architecture capable of processing computational problems concurrently using network sockets.*
+* **Tech:** Go, Python, Sockets. Architecture utilizes the Factory Method design pattern and a strict TDD approach.
+
+#### 🏦 [Money Bank API](https://github.com/jesusg777/money-bank-api)
+*A robust backend service simulation for banking transactions, account management, and secure data handling.*
+* **Focus:** Scalable backend architecture, RESTful API design, and database management.
 
 #### 🤖 Multi-Agent Negotiator (FunnelChat Hackathon)
-*Autonomous AI agents designed to automate marketing and sales workflows via Telegram.*
-* **Tech:** Python, n8n, Gemini API, Google Sheets.
+*Autonomous AI agents designed to automate marketing and sales workflows via Telegram using n8n and Gemini API.*
+* **Focus:** Conversational automation, AI agent orchestration, and system triggers.
+
+#### 📊 [Machine Learning Models Collection](https://github.com/jesusg777/machine-learning-models)
+*A repository showcasing the implementation and evaluation of fundamental and advanced machine learning algorithms.*
+* **Focus:** Data processing, model training, and algorithmic evaluation.
+
+#### 🌐 Collaborative Cultural Platform (Freelance)
+*A closed-source full-stack web application designed to support community collaboration, event management, and ticketing.*
+* **Tech:** React, JavaScript, Flask. *(Live deployment for client).*
 
 ---
 ## 🛠 Technologies & Tools
