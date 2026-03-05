@@ -17,23 +17,24 @@
 
 ### 👨‍💻 About Me
 
-I am a Systems Engineering student based in Cali, Colombia, passionate about Artificial Intelligence, Medical Image Analysis, and building robust, scalable software architectures. I enjoy solving complex problems bridging the gap between cutting-edge AI research and production-ready backend systems.
+Systems Engineering student and software engineer focused on AI systems and deep learning applications. My work centers on bridging machine learning research and production-ready software systems, particularly in medical imaging and distributed architectures.
 
 - 🔭 **Currently working on:** Refining multitask deep learning architectures for clinical environments and developing distributed problem-solving systems.
 - 🌱 **Currently learning:** Advanced Cloud Deployment (AWS), MLOps, and scalable service-based architectures.
-- 🎯 **Goal:** Seeking a Software Engineering or AI Internship to apply my skills in a dynamic, challenge-driven tech team.
-- 📝 **Latest Research:** Co-authored a paper on *Multitask Deep Learning for Brain Tumor Segmentation and Classification in MRI* (achieving 97.7% accuracy).
 - ⚡ **Fun fact:** When I'm not coding or training neural networks, you can find me at the gym or listening to indie-folk and rock music. 
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 📚 Research
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,pytorch,go,cs,js,react,flask,dotnet,aws,docker,git,sqlite,linux&perline=10" />
-  </a>
-</p>
+**Multitask Deep Learning for Brain Tumor Segmentation and Classification in MRI**
+Co-authored research paper proposing a U-Net + ResNet34 multitask architecture for simultaneous tumor segmentation and classification on MRI data.
+
+**Key Results:**
+- `97.7%` Classification Accuracy
+- `81.41%` Dice Coefficient
+
+*[📄 Read the Full Paper (PDF) ↗](./Nombre_De_Tu_Archivo.pdf)*
 
 ---
 
@@ -41,23 +42,41 @@ I am a Systems Engineering student based in Cali, Colombia, passionate about Art
 
 #### 🧠 [AI-Assisted MRI Tumor Analysis System](https://github.com/jesusg777)
 *A multitask deep learning model for simultaneous brain tumor classification and pixel-wise segmentation.*
-* **Tech:** Python, PyTorch, ResNet34, U-Net, Grad-CAM.
-* **Results:** 97.7% classification accuracy, 0.814 Dice score, and 0.695 IoU on the BRISC2025 dataset.
 
-#### 🌐 Collaborative Cultural Platform (Freelance)
-*A full-stack web application designed to support community collaboration, event management, and ticketing.*
-* **Tech:** React, JavaScript, Flask.
+```text
+MRI Input
+  │
+  ▼
+ResNet-34 Encoder
+  │
+  ▼
+Shared Feature Maps
+  ├──► U-Net Decoder ───────► Tumor Segmentation Mask
+  └──► Classification Head ─► Tumor Type (Glioma, etc.)
+```
+### ⚙️ Distributed Problem Solver System
+A client-server architecture capable of processing computational problems concurrently using network sockets.
 
-#### ⚙️ Distributed Problem Solver System
-*A client-server architecture capable of processing computational problems concurrently using network sockets.*
-* **Tech:** Go, Python, Sockets. Architecture utilizes the Factory Method design pattern for scalability.
+Tech: Go, Python, Sockets. Architecture utilizes the Factory Method design pattern for scalability.
 
-#### 🤖 Multi-Agent Negotiator (FunnelChat Hackathon)
-*Autonomous AI agents designed to automate marketing and sales workflows via Telegram.*
-* **Tech:** Python, n8n, Gemini API, Google Sheets.
+### 🌐 Collaborative Cultural Platform (Freelance)
+A full-stack web application designed to support community collaboration, event management, and ticketing.
 
----
+Tech: React, JavaScript, Flask.
+
+### 🤖 Multi-Agent Negotiator (FunnelChat Hackathon)
+Autonomous AI agents designed to automate marketing and sales workflows via Telegram.
+
+Tech: Python, n8n, Gemini API, Google Sheets.
+
+🛠️ Tech Stack & Tools
+<p align="center">
+<a href="https://skillicons.dev">
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,pytorch,go,cs,js,react,flask,dotnet,aws,docker,git,sqlite,linux%26perline%3D10" />
+</a>
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jesusg777&show_icons=true&theme=radium&hide_border=true" alt="Jesús's GitHub Stats" />
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Djesusg777%26show_icons%3Dtrue%26theme%3Dradium%26hide_border%3Dtrue" alt="Jesús's GitHub Stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesusg777&layout=compact&theme=radium&hide_border=true" alt="Top Languages" width="48%" />
 </p>
